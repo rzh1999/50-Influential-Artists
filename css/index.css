@@ -183,6 +183,10 @@ img {
   text-decoration: none;
   color: black;
 }
+hr {
+  max-width: 900px;
+  margin: 0 auto;
+}
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
