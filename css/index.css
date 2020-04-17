@@ -173,11 +173,10 @@ img {
   top: 64%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
-  font-size: 3rem;
   border: 1px solid black;
   border-radius: 8px;
-  background-color: white;
+  font-size: 3rem;
+  background-color: dodgerblue;
 }
 .container .centered a {
   text-decoration: none;
