@@ -123,6 +123,29 @@ img {
   max-width: 100%;
   height: auto;
 }
+.menuContainer {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.menuContainer .vertical {
+  border-left: 2px solid black;
+  height: 30px;
+}
+.menuContainer .navMenu {
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  margin: 5% 0% 5% 0%;
+}
+.menuContainer .navMenu a {
+  font-size: 2.5rem;
+  color: black;
+  text-decoration: none;
+  letter-spacing: 0.5rem;
+}
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
