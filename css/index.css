@@ -146,6 +146,16 @@ img {
   text-decoration: none;
   letter-spacing: 0.5rem;
 }
+.title-container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.title-container img {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+  /* For IE 8 & 9 (more valid) */
+}
 @font-face {
   font-family: 'Roboto';
   font-style: normal;

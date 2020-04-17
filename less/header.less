@@ -1,1 +1,13 @@
-header.less
+.debugBorder(@color){
+    border:1px solid @color;
+  }
+
+.title-container{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    img {
+        opacity: 0.7;
+        filter: alpha(opacity=30); /* For IE 8 & 9 (more valid) */
+      }
+}
